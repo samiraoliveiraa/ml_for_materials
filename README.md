@@ -1,2 +1,2 @@
-## Relevância de atributos locais no aprendizado de máquina para energia de formação
+## Relevance of local attributes in machine learning for formation energy
 **Samira de Oliveira Moreira, Felipe Crasto de Lima**
