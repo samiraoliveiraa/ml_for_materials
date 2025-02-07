@@ -1,7 +1,4 @@
-from interpret import show
 from interpret.glassbox import ExplainableBoostingRegressor
-from interpret.data import Marginal
-from interpret.perf import RegressionPerf
 from sklearn.model_selection import train_test_split
 import pandas as pd
 from joblib import dump
