@@ -12,3 +12,14 @@
   - ```full_data.7z```: Compressed dataset including both bond information and the features used in the models.
   - ```material_data.csv```: Dataset containing the features used in the models in CSV format.
   - ```material_data.dat```: Dataset containing the same features as above, in DAT format.
+
+- ```ebm/``` — contains files related to training and analyzing the Explainable Boosting Machine model.
+  - ```ebm_optuna.py```: Script for training and optimizing the EBM model using Optuna.
+  - ```ebm_model_optimized.joblib```: File containing the trained EBM model.
+  - ```ebm.ipynb```: Jupyter notebook with EBM model analysis and visualization.
+ 
+- ```random_forest/``` — contains files related to the training of the Random Forest model.
+  - ```rfr.ipynb```: Jupyter notebook for training and evaluating the Random Forest model.
+
+- ```sisso/``` — contains files related to SISSO model analysis. Note: The models were trained in a high-performance computing (HPC) environment.
+  - ```sisso-analysis.ipynb```: Jupyter notebook for analyzing the results of the SISSO models.
