@@ -7,11 +7,11 @@
 
 - ```data/``` — contains files related to data extraction.
   - ```bonds.py```: Script for extracting chemical bonds from materials using POSCAR files obtained from the Materials Project.
-  - ```data_information.ipynb```: Jupyter notebook with general information about the dataset.
   - ```features.py```: Script for generating bond-related features.
   - ```full_data.7z```: Compressed dataset including both bond information and the features used in the models.
   - ```material_data.csv```: Dataset containing the features used in the models in CSV format.
   - ```material_data.dat```: Dataset containing the same features as above, in DAT format.
+  - ```data_information.ipynb```: Jupyter notebook with general information about the dataset.
 
 - ```ebm/``` — contains files related to training and analyzing the Explainable Boosting Machine model.
   - ```ebm_optuna.py```: Script for training and optimizing the EBM model using Optuna.
