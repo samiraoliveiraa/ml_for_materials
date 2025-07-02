@@ -19,7 +19,8 @@
   - ```ebm.ipynb```: Jupyter notebook with EBM model analysis and visualization.
  
 - ```random_forest/``` — contains files related to the training of the Random Forest model.
-  - ```rfr.ipynb```: Jupyter notebook for training and evaluating the Random Forest model.
+  - ```rfr_optuna.py```: Script for training and optimizing the RF model using Optuna.
+  - ```rfr.ipynb```: Jupyter notebook with RF model analysis and visualization.
 
 - ```sisso/``` — contains files related to SISSO model analysis. Note: The models were trained in a high-performance computing (HPC) environment.
   - ```sisso-analysis.ipynb```: Jupyter notebook for analyzing the results of the SISSO models.
